@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdarg.h>
@@ -11,7 +11,6 @@
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
  */
-
 typedef struct flags
 {
 	int plus;
@@ -25,7 +24,6 @@ typedef struct flags
  * @c: format specifier
  * @f: pointer to the correct printing function
  */
-
 typedef struct printHandler
 {
 	char c;
@@ -47,7 +45,7 @@ int print_octal(va_list l, flags_t *f);
 /* converter */
 char *convert(unsigned long int num, int base, int lowercase);
 
-/* _printf */
+/* printf */
 int _printf(const char *format, ...);
 
 /* get_print */
@@ -61,7 +59,7 @@ int print_string(va_list l, flags_t *f);
 int print_char(va_list l, flags_t *f);
 
 /* write_funcs */
-nt _putchar(char c);
+int _putchar(char c);
 int _puts(char *str);
 
 /* print_custom */
