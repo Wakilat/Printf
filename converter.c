@@ -7,7 +7,10 @@
  * @lowercase: flag if hexa values need to be lowercase
  * Return: result string
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> c955aef981c25c35e49297dccf7208d566074af5
 char *convert(unsigned long int num, int base, int lowercase)
 {
 	static char *rep;
