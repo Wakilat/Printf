@@ -59,7 +59,7 @@ int print_bigS(va_list l, flags_t *f)
 
 >>>>>>> c955aef981c25c35e49297dccf7208d566074af5
 /**
- * print_rev - prints a string in reverse
+ * print_rev - to print a string in reverse
  * @l: argument from _printf
  * @f: pointer to the struct flags that determines
  * if a flag is passed to _printf
@@ -96,8 +96,8 @@ int print_rev(va_list l, flags_t *f)
 
 >>>>>>> c955aef981c25c35e49297dccf7208d566074af5
 /**
- * print_rot13 - prints a string using rot13
- * @l: list of arguments from _printf
+ * print_rot13 - to print a string using rot13
+ * @l: to list of arguments from _printf
  * @f: pointer to the struct flags that determines
  * if a flag is passed to _printf
  * Return: length of the printed string

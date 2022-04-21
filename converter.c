@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * convert - converts number and base into string
- * @num: input number
+ * convert - to convert number and base into string
+ * @num: for input number
  * @base: input base
- * @lowercase: flag if hexa values need to be lowercase
+ * @lowercase: to flag if hexa values need to be lowercase
  * Return: result string
  */
 <<<<<<< HEAD
